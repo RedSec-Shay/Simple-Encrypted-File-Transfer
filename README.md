@@ -5,7 +5,6 @@ Provide encrypted file transfer between two nodes.
 
 The program takes an input file , encrypts the file using symatric AES key (hard coded, change it to be uniq).
 
-
 The software has 3 modes:Server ,client , md5 
 
 Usage: 
