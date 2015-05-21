@@ -7,9 +7,9 @@ The program takes an input file , encrypts the file using symatric AES key (hard
 
 The software has 3 modes:Server ,client , md5 
 
-Usage: 
-Run as Client to send the file
-Client -     send_enc.py <server ip> <local file>  <port>"
-Server -     send_enc2.py -l <port>"
+```Usage: 
+Client -     send_enc.py <server ip> <local file>  <port>"<br />
+Server -     send_enc.py -l <port>"<br />
 Verify md5 - send_enc.py md5 <file name>"
 
+```
