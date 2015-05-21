@@ -32,7 +32,7 @@ cipher = AES.new(secret)
 if (len(sys.argv) < 2) or ('-h' in sys.argv) :
 	print "Usage: Server - send_enc2.py -l <port>"
 	print "       Client - send_enc2.py <server ip> <local file>  <port>"
-	print " 	  Check md5hash - send_enc8.py md5 <file name>"
+	print "       Check md5hash - send_enc8.py md5 <file name>"
 	sys.exit()
 	
 
